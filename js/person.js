@@ -50,7 +50,8 @@ let person = {
         </div>
     </div>
         </div>
-    `,
+    `
+    ,
 
     methods:{
         backa(){

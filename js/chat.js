@@ -1,12 +1,13 @@
 let chat = {
     template:`
+    <transition name="fade">
     <div>
        <div class="chat-item">
             <div class="chat-title">
                 <button class="button" @click="back">
                     <div class="iconfont icon-zuojiantou wechar-img"></div>
                 </button>
-                <p>{{$route.params.name}}</p>
+                <p class="dsfzz">{{$route.params.name}}</p>
                 <div class="sear">···</div>
             </div>
         </div>
@@ -92,7 +93,8 @@ let chat = {
                 <img src="./image/添加 (1).png" alt="">
             </div>
         <div>
-    </div>    
+    </div>
+    </transition>    
     `,
     methods:{
         back(){
