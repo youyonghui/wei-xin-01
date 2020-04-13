@@ -1,0 +1,1255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-warp {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.bottom-warp-ul {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: white;
+}
+
+.tiao {
+    display: flex;
+    width: 25%;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+
+.bottom-warp-ul li {
+    display: flex;
+    width: 25%;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-shrink: 0;
+    flex-grow: 1; */
+}
+
+.li-img {
+    width: 25px;
+    height: 25px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.li-text {
+    font-size: 12px;
+    width: 36px;
+    text-align: center;
+    margin-top: -7px;
+}
+
+.active {
+    color: #000;
+}
+
+.title {
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+    position: fixed;
+    top:0;
+    position: relative;
+}
+
+.sear {
+    width: 20px;
+    height: 20px;
+    /* margin-left: 73%; */
+    float: right;
+    position: absolute;
+    right: 30px;
+}
+
+.sear img {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.add {
+    width: 20px;
+    height: 20px;
+    /* margin-left: 10px; */
+    position: absolute;
+    right: 5px;
+}
+
+.add img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.text-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.reposon {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow: auto;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.content-warp {
+    width: 100%;
+    height: 78px;
+    border: 1px solid gray;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.content-warp-img {
+    width: 50PX;
+    height: 50PX;
+}
+
+.content-warp-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-warp-textA {
+    width: 100%;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 12px;
+    display: flex;
+    position: relative;
+}
+
+.textbright-text {
+    width: 100%;
+}
+
+.texta {
+    font-size: 14px;
+}
+
+.textb {
+    font-size: 12px;
+    position: absolute;
+    right: 5.5%;
+    /* position: absolute;
+    right: -225%; */
+}
+
+.content-warp-textB {
+    width: 100%;
+    height: 28px;
+    margin-left: 12px;
+}
+
+.textc {
+    font-size: 14px;
+}
+
+.mail-list-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow: auto;
+    position: relative;
+}
+
+.titleB {
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+    position: fixed;
+    top:0;
+    position: relative;
+}
+
+.classification {
+    width: 100%;
+    height: 160px;
+}
+
+.classificationA {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgb(200, 214, 218);
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.classification-img {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(212, 162, 68);
+    padding: 2px;
+}
+
+.classification-imgB {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(146, 233, 146);
+    border-radius: 3px;
+}
+
+.classification-imgB img {
+    width: 100%;
+    height: 100%;
+}
+
+.classification-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.classification-friden {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.classification-imgC {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(63, 109, 209);
+    border-radius: 3px;
+}
+
+.classification-imgC img {
+    width: 100%;
+    height: 100%;
+}
+
+.classification-imgD {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(63, 109, 209);
+    border-radius: 3px;
+}
+
+.classification-imgD img {
+    width: 100%;
+    height: 100%;
+}
+
+.freiend-list {
+    width: 100%;
+    height: 100%;
+}
+
+.starStandard {
+    width: 100%;
+    background-color: rgb(230, 225, 225);
+    padding: 5px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.starStandardA {
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.starStandardA-img {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(238, 238, 238);
+}
+
+.starStandardA-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.starStandardA-name {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.left-enter-active,
+.left-leave-active {
+    transition: all .7s;
+}
+
+.left-enter {
+    transform: translateX(400px);
+
+}
+
+.left-leave-to {
+    transform: translateX(-400px);
+    position: absolute;
+}
+
+.right-enter-active,
+.right-leave-active {
+    transition: all .7s;
+}
+
+.right-enter {
+    transform: translateX(-400px);
+}
+
+.right-leave-to {
+    transform: translateX(400px);
+    position: absolute;
+}
+
+.active {
+    color: #07C160;
+}
+
+.text-itemC {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 221, 221);
+    position: relative;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.fav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.wechat-Moments {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.wechat-Moments-itemf {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+}
+
+.wechat-Moments-item {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    position: relative;
+}
+
+.wechat-Moments-item-img {
+    width: 20px;
+    height: 20px;
+}
+
+.wechat-Moments-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.wechat-Moments-item-textA {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.wechat-Moments-item-imgB {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    /* margin-left: 58%; */
+    left: 85%;
+}
+
+.wechat-Moments-item-imgB img {
+    width: 100%;
+    height: 100%;
+}
+
+.wechat-MomentsB {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.wechat-Moments-item1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.wechat-MomentsC {
+    width: 100%;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.wechat-Moments-itemC {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+}
+
+.wechat-Moments-item-imgC {
+    width: 20px;
+    height: 20px;
+}
+
+.wechat-Moments-item-imgC img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-warp {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.camera {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top:0;
+}
+
+.camera-img {
+    width: 20px;
+    height: 20px;
+    margin-left: 282px;
+}
+
+.camera-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-sfsf {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    margin-top: 25px;
+}
+
+.personal-information {
+    width: 100%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+}
+
+.personal-information-img {
+    width: 50px;
+    height: 50px;
+}
+
+.personal-information-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.personal-information-right {
+    width: 100%;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.users {
+    color: black;
+    font-weight: bold;
+}
+
+.personal-information-bottom {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    color: rgb(170, 170, 170);
+    position: relative;
+}
+
+.right-font {
+    left: 94%;
+    font-weight: bold;
+    position: absolute;
+}
+
+.qrCode {
+    width: 15px;
+    height: 15px;
+    left: 86%;
+    position: absolute;
+}
+
+.qrCode img {
+    width: 100%;
+    height: 100%;
+}
+
+.wechat-payment {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: rgb51(2, 251, 251);
+    margin-top: 10px;
+}
+.wechat-Moments-itemk {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.fangxianga{
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+    left: 93%;
+    font-size: 14px;
+    position: absolute;
+}
+.fangxiangb{
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+    left: 93%;
+    font-size: 14px;
+    position: absolute;
+}
+.fangxiang{
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+    left: 89%;
+    font-size: 14px;
+    position: absolute;
+}
+.kuo {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    left: 96%;
+    position: absolute;
+}
+.kuoa {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    position: absolute;
+    left: 95%;
+}
+.kuob {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    position: absolute;
+    left: 94%;
+}
+.kuoc {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    position: absolute;
+    left: 95%;
+}
+.kuod {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    position: absolute;
+    left: 94%;
+}
+.kuoe {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    position: absolute;
+    left: 95%;
+}
+.kuof {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    position: absolute;
+    left: 95%;
+}
+.kuog {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    position: absolute;
+    left: 94%;
+}
+.kuoh {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    position: absolute;
+    left: 95%;
+}
+.wechat-Moments-item-imgf {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    position: relative;
+}
+.wechat-Moments-item-imgf img {
+   width: 100%;
+   height: 100%;
+}
+.dian{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    margin-left: 15px;
+}
+.mySetup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+}
+.mySetupA{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    position: relative;
+}
+.mySetupA-img {
+    width: 20px;
+    height: 20px;
+}
+.mySetupA-img img {
+    width: 100%;
+    height: 100%;
+}
+.mySetupA-name {
+    margin-left: 15px;
+}
+
+.twoWarp {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(85, 80, 80);
+}
+.chat-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    overflow: auto;
+}
+.chat-title {
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    top:0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.left {
+    font-weight: bold;
+}
+.chat-item-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 32px;
+    padding: 12px;
+    background-color: rgb(243, 243, 243);
+    overflow: hidden;
+    overflow: auto;
+    height: 100%;
+    position: relative;
+}
+
+.chat-text {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chat-text-right {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chat-left-img {
+    width: 25px;
+    height: 25px;
+}
+
+.chat-left-img img {
+    width: 100%;
+    height: 100%;
+}
+.chat-news {
+    font-size: 14px;
+    margin-left: 12px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 12px;
+}
+
+.chat-text-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.button {
+    border: none;
+    background-color: transparent;
+    outline: none;  
+}
+.chat-item-friend {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.chat-item-text-friend {
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgb(231, 231, 231);
+}
+
+.friend-big-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+}
+
+.fiend-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+.friend-img {
+    width: 50px;
+    height: 50px;
+}
+
+.friend-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.chat-news-friendA {
+    font-size: 16px;
+}
+
+.chat-news-friendB,.chat-news-friendC {
+    font-size: 14px;
+    color: gray;
+}
+
+.friend-two-text {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    background-color: white;
+}
+
+.leftli {
+    margin-left: 174px;
+    color: rgb(167, 166, 166);
+}
+
+.leftlia {
+    margin-left: 219px;
+    color: rgb(167, 166, 166);
+}
+.friend-three-text {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.friend-four-text {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    color: rgb(64, 153, 236);
+    justify-content: center;
+}
+.tnews {
+    text-align: center;
+    margin-top:-2.5px;
+}
+.friend-img-biao {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.friend-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.friend-five-text {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    color: rgb(64, 153, 236);
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.friendsa {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.fadv-warp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.background-img {
+    width: 100%;
+    height: 200px;
+}
+
+.background-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.fadv-img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+     top: 40px;
+     left: 293px;
+}
+.fadv-img img {
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.fadv-small {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 192px;
+    margin-top: -40px;
+}
+.dadv-text {
+    color: white;
+}
+.fadv-imga {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+.fadv-imga img {
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.fadv-news {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px;
+}
+.fadv-news-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.fadv-news-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.dadv-lian-img {
+    width: 160px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dadv-lian-img img {
+    width: 50%;
+    height: 50%;
+}
+
+.fadvv-imgasd {
+    width: 20px;
+    height: 20px;
+    margin-left: 268px;
+    
+}
+
+.fadvv-imgasd img {
+    width: 100%;
+    height: 100%;
+}
+
+.seara {
+    margin-left: 245px;
+}
+.seardd {
+    margin-left: 275px;
+}
+
+.dadv-item {
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: white;
+    padding: 8px;
+    z-index: 999;
+}
+
+.dave-title {
+    width: 100%;
+    display: flex;
+}
+
+.heng {
+    display: flex;
+}
+
+.friendsbb {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.out {
+    text-decoration: none;
+    color: black;
+}
+
+.chat-button {
+    position: fixed;
+    width: 100%;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(236, 236, 236);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.kuang {
+    width: 230px;
+    height: 30px;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: white;
+    margin-left: 12px;
+    border-radius: 3px;
+}
+
+.chat-left-imga {
+    width: 18px;
+    height: 18px;
+} 
+
+.chat-left-imga img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    overflow: auto;
+    background-color: rgb(230, 230, 230);
+}
+
+.my-titled {
+    width: 100%;
+    display: flex;
+    background-color: #eee;
+    padding: 8px;
+    align-items: center;
+}
+
+.my-zi {
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+.my-leia {
+    width: 100%;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+}
+
+.tou {
+    font-size: 13px;
+}
+
+.my-leia-img {
+    width: 40px;
+    height: 40px;
+    margin-left: 205px;
+    border-radius: 3px;
+
+}
+
+.my-leia-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.myfang {
+    margin-left: 12px;
+    color: rgb(199, 194, 194);
+}
+
+.my-names {
+    margin-left: 206px;
+    font-size: 13px;
+    color: rgb(197, 197, 197);
+}
+
+.myfangb {
+    margin-left: 12px;
+    color: rgb(199, 194, 194);
+}
+
+.my-weixin {
+    margin-left: 124px;
+    font-size: 13px;
+    color: rgb(197, 197, 197);
+}
+
+.my-erweima {
+    width: 15px;
+    height: 15px;
+    margin-left: 191px;
+}
+
+.my-erweima img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-leib{
+    width: 100%;
+    display: flex;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+}
+
+.my-leic {
+    width: 100%;
+    display: flex;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.myfangv {
+    margin-top: -2px;
+    margin-left: 12px;
+    color: rgb(199, 194, 194);
+}
+
+.myfangc {
+    margin-left: 257px;
+    color: rgb(199, 194, 194);
+}
+
+.my-leid {
+    width: 100%;
+    display: flex;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    background-color: white;
+}
+
+.myfangd {
+    margin-left: 257px;
+    color: rgb(199, 194, 194);
+}
+
+.mydse {
+    color:black;
+    text-decoration: none; 
+}
+
+.btd {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.router-link-active {
+    color:#07C160
+}
+.seare {
+    width: 20px;
+    height: 20px;
+    /* margin-left: 70%; */
+    position: absolute;
+    right: 30px;
+}
+
+.seare img {
+    width: 100%;
+    height: 100%;
+}
+
+.searde {
+    width: 20px;
+    height: 20px;
+    /* margin-left: 74%; */
+    position: absolute;
+    right: 30px;
+}
+.right-text {
+    width: 100%;
+    position: relative;
+}
+
+.searde img {
+    width: 100%;
+    height: 100%;
+}
